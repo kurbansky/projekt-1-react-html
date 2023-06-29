@@ -1,0 +1,23 @@
+.offers {
+  background: #756657;
+  padding: 50px 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.heading-offers {
+  font-size: 36px;
+  line-height: 42px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 63px;
+  justify-content: center;
+}

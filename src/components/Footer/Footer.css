@@ -1,0 +1,26 @@
+footer {
+  height: 71px;
+  background: #4e4e4e;
+  color: white;
+}
+.footer .container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-paragraph {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.fa-instagram {
+  font-size: 31px;
+}
+
+.fa-square-facebook {
+  font-size: 31px;
+  margin-left: 18px;
+}

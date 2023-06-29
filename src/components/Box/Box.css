@@ -1,0 +1,27 @@
+.box {
+  position: relative;
+  width: 198px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px #975c038d;
+  font-size: 24px;
+  line-height: 28px;
+  transition-duration: 0.5s;
+}
+.box:hover {
+  transform: scale(1.05);
+}
+
+.circle {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: coral;
+  top: -12.5px;
+  left: -12.5px;
+}

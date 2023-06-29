@@ -1,0 +1,63 @@
+.specialists {
+  background: #bca68f;
+  padding: 50px 0;
+}
+
+.specialists .container {
+  height: 100%;
+}
+
+.heading-specialists {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: white;
+  margin-bottom: 78px;
+}
+
+.specialist {
+  display: flex;
+}
+
+.specialist:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+  padding-top: 42px;
+}
+
+.specialist-img {
+  min-width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.specialist:nth-of-type(odd) .specialist-img {
+  background-image: url(../../assets/pexels-christina-morillo-1181424\ v.3.jpg);
+  margin-right: 60px;
+}
+
+.specialist:nth-of-type(even) .specialist-img {
+  background-image: url(../../assets/pexels-daniel-xavier-1239291.jpg);
+  margin-left: 60px;
+}
+
+.specialist-info-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name,
+.second-name {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 21px;
+}
