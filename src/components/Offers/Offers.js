@@ -9,7 +9,7 @@ const Offers = () => {
         <h2 className="heading-offers">Czym zajmuje się nasza firma?</h2>
         <div className="box-container">
           {offers.map(({ name, isNew }) => {
-            return <Box name={name} isNew={isNew}></Box>;
+            return <Box key={name} name={name} isNew={isNew}></Box>;
           })}
         </div>
       </div>
