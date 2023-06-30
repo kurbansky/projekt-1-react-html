@@ -1,15 +1,14 @@
 # Website Project
 
 > This is a template of a company website using html/css and React.js. The project is from the bootcamp.
-> Live demo [_here_]()
+> Live demo [_here_](https://chimerical-zuccutto-78d98c.netlify.app/)
 
 ## Table of contents
 
 - [General information](#general-information)
 - [Technologies Used](#technologies-used)
-- [Features](#features)
 - [Setup](#setup)
-- [Acknowledgements](#Acknowledgements)
+- [Acknowledgements](#acknowledgements)
 
 ## General Information
 
@@ -24,7 +23,7 @@ Project is created with:
 
 ## Setup
 
-To run this project, open the link in a browser.
+To run this project, open the link in a browser: https://chimerical-zuccutto-78d98c.netlify.app/.
 
 ## Acknowledgements
 
